@@ -66,134 +66,136 @@ Ang matag usa nga institusyon sa Rho Virtual Machine (RhoVM) nagmintinar sa usa 
 Ang matag usa nga institusyon sa Rho Virtual Machine (RhoVM) nagmintinar sa usa ka palibot nga kanunayng nagamit sa ubos nga lebel sa rho-calculus reduction rule, nga gipahayag sa taas nga level Rholang nga pinulongan nga pinulongan, ngadto sa mga elemento sa usa ka nagapadayon nga key-value data store. Ang "kahimtang" sa RhoVM susama sa estado sa blockchain. Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) sa RChain Architecture.
 ##  Rho API
 
-#### Language Binding
-In computing, a binding from a programming language to a library or operating system service is an application programming interface (API) providing glue code to use that library or service in a given programming language.
+##  Rho API
+
+#### Binding ng Wika
+Sa computing, ang isang umiiral na mula sa isang programming language sa isang library o operating system service ay isang application programming interface (API) na nagbibigay ng glue code upang magamit ang library o serbisyo sa isang wika ng programming. Source: Wika Binding sa Wikipedia.
 Source: [Language Binding](https://en.wikipedia.org/wiki/Language_binding) at Wikipedia.
 
 #### Rho Language Bindings
-The Rho API has bindings for Java, Scala, and some others but not Python....
+Ang Rho API ay may bindings para sa Java, Scala, at ilang iba pa ngunit hindi Phyton ....
 
-## Computer Science Terms
+## Mga Tuntunin sa Science sa Computer
 
-#### Actors, Tuples, and Pi
+#### Mga Aktor, Tuple, at Pi
 
     Not sure what this is meant to be.... please fill in.
 
 #### Behavioral Types
 <!-- Substitutability is a principle in object-oriented programming stating that, in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S (i.e. an object of type T may be substituted with any object of a subtype S) without altering any of the desirable properties of T (correctness, task performed, etc.). More formally, the Liskov substitution principle (LSP) is a particular definition of a subtyping relation, called (strong) behavioral subtyping. It is a semantic rather than merely syntactic relation because it intends to guarantee semantic interoperability of types in a hierarchy, object types in particular.
 Source: [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) at Wikipedia. -->
-A behavioral type is a property of an object that binds it to a discrete range of action patterns. Behavioral types constrain not only the structure of input and output, but the permitted order of inputs and outputs among communicating and (possibly) concurrent processes under varying conditions.
+Ang uri ng pag-uugali ay isang ari-arian ng isang bagay na nagbubuklod sa isang discrete range ng mga pattern ng pagkilos. Ang mga uri ng pag-uugali ay hindi lamang ang istruktura ng input at output, kundi ang pinahihintulutang pagkakasunud-sunod ng mga input at output sa pakikipag-usap at (posibleng) mga sabay na proseso sa ilalim ng iba't ibang mga kondisyon. 
 Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
 
 #### Concurrency
-In computer science, concurrency is the decomposability property of a program, algorithm, or problem into order-independent or partially-ordered components or units.[1] This means that even if the concurrent units of the program, algorithm, or problem are executed out-of-order or in partial order, the final outcome will remain the same. This allows for parallel execution of the concurrent units, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
-Source: [Concurrency (computer science)](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) at Wikipedia.
+Sa agham ng kompyuter, ang concurrency ay ang pag-aari ng pag-decomposability ng isang programa, algorithm, o problema sa mga bahagi o yunit ng order-independiyenteng o bahagi na iniutos. [1] Nangangahulugan ito na kahit na ang mga kasabay na yunit ng programa, algorithm, o problema ay pinaandar ng out-of-order o sa bahagyang order, ang huling resulta ay mananatiling pareho. Ito ay nagbibigay-daan para sa parallel pagpapatupad ng mga kasabay na mga yunit, na maaaring makabuluhang mapabuti ang pangkalahatang bilis ng pagpapatupad sa multi-processor at multi-core system.:: [Concurrency (computer science)](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) at Wikipedia.
 
 #### Concurrency vs Parallelism
-It is important to understand the implications of concurrent execution. When we say, “concurrency”, we are not referring to the simultaneous execution of multiple processes. That is parallelism. Concurrency is a structural property which allows independent processes to compose into complex processes. Processes are considered independent if they do not compete for resources.
-Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html?highlight=Concurrency) in RChain Architecture.
+Mahalagang maunawaan ang mga implikasyon ng kasabay na pagpapatupad. Kapag sinasabi namin, "concurrency", hindi namin tinutukoy ang sabay na pagpapatupad ng maraming proseso. Iyon ay parallelism. Concurrency ay isang estruktural ari-arian na nagbibigay-daan sa mga independiyenteng proseso upang bumuo sa kumplikadong proseso. Ang mga proseso ay itinuturing na malaya kung hindi sila makipagkumpetensya para sa mga mapagkukunan.
+Pinagmulan: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html?highlight=Concurrency) in RChain Architecture.
 
 #### Extensional
-An extensional definition of a concept or term formulates its meaning by specifying its extension, that is, every object that falls under the definition of the concept or term in question. Extensional definitions are used when listing examples would give more applicable information than other types of definition, and where listing the members of a set tells the questioner enough about the nature of that set.
-Source: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+Ang isang extensional na kahulugan ng isang konsepto o termino ay bumubuo ng kahulugan nito sa pamamagitan ng pagtukoy ng extension nito, samakatuwid nga, ang bawat bagay na nasa ilalim ng kahulugan ng konsepto o termino na pinag-uusapan. Ang mga malawak na kahulugan ay ginagamit kapag ang mga halimbawa ng paglilista ay magbibigay ng higit na naaangkop na impormasyon kaysa sa iba pang mga uri ng kahulugan, at kung saan ang listahan ng mga miyembro ng isang set ay nagsasabi ng sapat na tanong tungkol sa likas na katangian ng set na iyon.
+Pnagmulan: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
 
-#### Intensional
-In logic and mathematics, an intensional definition gives the meaning of a term by specifying necessary and sufficient conditions for when the term should be used. In the case of nouns, this is equivalent to specifying the properties that an object needs to have in order to be counted as a referent of the term. Intensional definitions are best used when something has a clearly defined set of properties, and they work well for terms that have too many referents to list in an extensional definition.
-Source: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+#### Intensiyon
+Sa lohika at matematika, ang isang kahulugan ng intensyon ay nagbibigay ng kahulugan ng isang termino sa pamamagitan ng pagtukoy ng mga kinakailangan at sapat na kondisyon para sa kung kailan dapat gamitin ang term. Sa kaso ng mga pangngalan, ito ay katumbas ng pagtukoy sa mga ari-arian na kailangan ng isang bagay upang maibilang bilang isang reperensya ng termino. Ang mga intensiyon na kahulugan ay pinakamahusay na ginagamit kapag ang isang bagay ay may isang malinaw na tinukoy na hanay ng mga katangian, at gumagana ang mga ito nang maayos para sa mga tuntunin na may masyadong maraming mga referent sa listahan sa isang extensional kahulugan.
+Pinagmulan: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
 
 #### Recursion
-Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems. Most computer programming languages support recursion by allowing a function to call itself within the program text. Some functional programming languages do not define any looping constructs but rely solely on recursion to repeatedly call code. Computability theory proves that these recursive-only languages are Turing complete; they are as computationally powerful as Turing complete imperative languages, meaning they can solve the same kinds of problems as imperative languages even without iterative control structures such as “while” and “for”.
-Source: [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) at Wikipedia.
+Ang pag-recursion sa agham ng computer ay isang paraan kung saan ang solusyon sa isang problema ay nakasalalay sa mga solusyon sa mga mas maliit na pagkakataon ng parehong problema (kumpara sa pag-ulit). Ang diskarte ay maaaring mailapat sa maraming uri ng mga problema. Karamihan sa mga programming language computer ay sumusuporta sa recursion sa pamamagitan ng pagpapahintulot ng isang function na tumawag sa sarili sa loob ng teksto ng programa. Ang ilang mga functional programming languages ay hindi tumutukoy sa anumang mga looping constructs ngunit umaasa lamang sa recursion sa paulit-ulit na tawag code. Pinatutunayan ng teorya ng computability na ang mga recursive-only na wika na ito ay kumpleto na; ang mga ito ay tulad ng malakas na computationally bilang Turing kumpletong mga makapangyarihang wika, ibig sabihin maaari nilang malutas ang parehong uri ng mga problema bilang mga makapangyarihang wika kahit na walang iterative control structures tulad ng "habang" at "para sa". 
+Pinagmulan: [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) at Wikipedia.
 
 #### Reflection
 In mathematics, a reflection formula or reflection relation for a function f is a relationship between f(a − x) and f(x). It is a special case of a functional equation, and it is very common in the literature to use the term "functional equation" when "reflection formula" is meant.
 Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
 
 #### Tuple Space
-A tuple space is an implementation of the associative memory paradigm for parallel/distributed computing. It provides a repository of tuples that can be accessed concurrently. As an illustrative example, consider that there are a group of processors that produce pieces of data and a group of processors that use the data. Producers post their data as tuples in the space, and the consumers then retrieve data from the space that match a certain pattern. This is also known as the blackboard metaphor. Tuple space may be thought as a form of distributed shared memory.
-Source: [Tuple Space](https://en.wikipedia.org/wiki/Tuple_space) at Wikipedia.
+Sa matematika, ang isang reflection formula o pagmumuni-muni para sa isang function f ay isang relasyon sa pagitan ng f (a - x) at f (x). Ito ay isang espesyal na kaso ng isang functional equation, at ito ay napaka-pangkaraniwan sa panitikan upang gamitin ang terminong "functional equation" kapag ang "formula ng pagmuni-muni" ay nilalayong. Pinagmulan: Disenyo ng Kontrata sa RChain Architecture.
+Tuple Space
+Ang puwang ng tuple ay isang pagpapatupad ng paradaym ng pag-uugnay ng memory para sa parallel / ipinamamahagi computing. Nagbibigay ito ng isang repository ng mga tuple na maaaring ma-access nang sabay-sabay. Bilang isang nakapagpapaliwanag halimbawa, isaalang-alang na mayroong isang pangkat ng mga processor na gumagawa ng mga piraso ng data at isang pangkat ng mga processor na gumagamit ng data. Ang mga producer ay nag-post ng kanilang data bilang mga tuple sa espasyo, at pagkatapos ay kunin ng mga mamimili ang data mula sa puwang na tumutugma sa isang tiyak na pattern. Ito ay kilala rin bilang ang metapora ng pisara. Ang puwang ng Tuple ay maaaring iisip bilang isang paraan ng ibinahagi na shared memory. 
+Pinagmulan: [Tuple Space](https://en.wikipedia.org/wiki/Tuple_space) at Wikipedia.
 
-##  Tokens
+## Mga Token
 
-#### Proof of Stake
-PoS is a type of algorithm by which a cryptocurrency blockchain network aims to achieve distributed consensus. Unlike proof-of-work (PoW) based cryptocurrencies (such as bitcoin), where the algorithm rewards participants who solve complicated cryptographical puzzles in order to validate transactions and create new blocks (i.e. mining), in PoS-based cryptocurrencies the creator of the next block is chosen in via various combinations of random selection and wealth or age (i.e. the stake).
-Source: [Proof-of-stake](https://en.wikipedia.org/wiki/Proof-of-stake) at Wikipedia.
+#### Katunayan ng Stake
+PoS ay isang uri ng algorithm kung saan ang isang cryptocurrency blockchain network ay naglalayong makamit ang ipinagkaloob na pinagkasunduan. Hindi tulad ng cryptocurrency na batay sa katibayan ng trabaho (PoW) (tulad ng bitcoin), kung saan ang algorithm ay nagbibigay ng gantimpala sa mga kalahok na lutasin ang mga komplikadong mga cryptographical puzzle upang mapatunayan ang mga transaksyon at lumikha ng mga bagong bloke (ibig sabihin, pagmimina), sa PoS-based cryptocurrencies ang lumikha ng Ang susunod na bloke ay pinili sa pamamagitan ng iba't ibang mga kumbinasyon ng random na pagpili at kayamanan o edad (ie ang taya). 
+Pinagmulan: [Proof-of-stake](https://en.wikipedia.org/wiki/Proof-of-stake) at Wikipedia.
 
 #### Casper Proof of Stake
-Casper is a security-deposit based economic consensus protocol. This means that nodes, so called bonded validators, have to place a security deposit, an action called bonding, in order to serve the consensus by producing blocks. In Casper style proof of stake anyone can participate in block production by posting a bond. After posting a bond you have an opportunity to bet on which block will be included next. The incentives are such that you make money by betting with the eventual consensus and lose money by betting against the consensus. Any crypto-graphically provable misbehavior results in the forfeit of the bond.
-Source: [How does the Casper proof of stake algorithm work?](https://ethereum.stackexchange.com/questions/102/how-does-the-casper-proof-of-stake-algorithm-work) on StackExchange.
+CAng Casper ay isang kasunduan sa pinagkaisahan na pang-ekonomiya batay sa seguridad. Nangangahulugan ito na ang mga node, na tinatawag na validators na may bonded, ay kailangang maglagay ng isang security deposit, isang pagkilos na tinatawag na bonding, upang maihatid ang pinagkasunduan sa pamamagitan ng paggawa ng mga bloke. Sa Casper estilo ng katibayan ng taya kahit sino ay maaaring lumahok sa block produksyon sa pamamagitan ng pag-post ng isang bono. Pagkatapos ng pag-post ng isang bono mayroon kang isang pagkakataon upang pumusta kung saan ang bloke ay isasama sa susunod. Ang mga insentibo ay tulad na gumawa ka ng pera sa pamamagitan ng pagtaya sa sa wakas na pinagkasunduan at mawalan ng pera sa pamamagitan ng pagtaya laban sa pinagkasunduan. Ang anumang crypto-graphically provable misbehavior ay nagreresulta sa pagkawala ng bono.
+Pinagmulan: [How does the Casper proof of stake algorithm work?](https://ethereum.stackexchange.com/questions/102/how-does-the-casper-proof-of-stake-algorithm-work) on StackExchange.
 
 #### Staking Tokens
-Staking tokens are those required to run consensus, including the RChain Rev token. A staking token is required to pay for node resources.
-Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
+Ang mga token ay ang mga kinakailangang magpatakbo ng pinagkasunduan, kabilang ang token ng RChain Rev. Kinakailangan ang isang staking token para magbayad para sa mga mapagkukunang node.
+Pinagmulan: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
 
 #### Application Tokens
-Application tokens are optional and may be required to run certain dApps. New application tokens can be introduced at any time by a dApp developer, and are similar to Ethereum’s ERC20 tokens.
+Ang mga token ng application ay opsyonal at maaaring kinakailangan upang magpatakbo ng ilang mga dApps. Maaaring ipakilala ang mga bagong token ng application sa anumang oras sa pamamagitan ng isang developer ng dApp, at katulad sa mga token ng ERC20 ng Ethereum.
 
-#### Consensus
-Consensus (Casper Proof-of-Stake validation/consensus Protocol) assures node consensus on the state of each blockchain.
-Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
+#### Pinag-uusapan
+Ang pinagkasunduan (Casper Proof-of-Stake validation / consensus Protocol) assures node consensus sa estado ng bawat blockchain. 
+Pinagmulan: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
 
 #### Phlogiston
-Phlogiston is RChain’s measure of the cost of resources (similar to gas in Ethereum), and it is multi-dimensional and depends on usage of compute (depending on instruction), storage (depending on size and duration), and bandwidth (quality-of-service and throughput) resources.
-Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
+Ang Phlogiston ay ang panukalang-batas ng RChain ng halaga ng mga mapagkukunan (katulad ng gas sa Ethereum), at ito ay multi-dimensional at depende sa paggamit ng compute (depende sa pagtuturo), imbakan (depende sa laki at tagal), at bandwidth (kalidad-ng -service at throughput) mga mapagkukunan.
+Pinagmulan: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
 
 
 ## Namespace Logic
 
 #### Namespace
-A namespace is just a collection of names. All blockchain addresses are names. A collection can be described in a few ways. One of them is extensionally by explicitly spelling out each item in the collection. Another way is intensionally by providing a rule or program that either generates the collection or recognizes when an item is in the collection or out of the collection. The more interesting namespaces are the intensionally specified ones. The next step is to relate those to users, contracts, and nodes. Both users and contracts interact with each other via names.
-Source: Forum discussion with @leithaus in [Discord #proof-of-stake](https://discordapp.com/).
+Ang isang namespace ay isang koleksyon lamang ng mga pangalan. Ang lahat ng mga address ng blockchain ay mga pangalan. Ang isang koleksyon ay maaaring inilarawan sa ilang mga paraan. Ang isa sa kanila ay extensionally sa pamamagitan ng malinaw na spelling ang bawat item sa koleksyon. Ang isa pang paraan ay intensionally sa pamamagitan ng pagbibigay ng isang panuntunan o programa na alinman ay bumubuo ng koleksyon o kinikilala kapag ang isang item ay sa koleksyon o sa labas ng koleksyon. Ang mas kawili-wiling namespaces ay ang intensionally tinukoy na mga. Ang susunod na hakbang ay upang maugnay ang mga iyon sa mga gumagamit, mga kontrata, at mga node. Ang parehong mga gumagamit at kontrata ay nakikipag-ugnayan sa bawat isa sa pamamagitan ng mga pangalan. 
+Pinagmulan: Forum discussion with @leithaus in [Discord #proof-of-stake](https://discordapp.com/).
 
 #### Node
-Nodes verify transactions in given namespaces, and transactions are i/o events across names (which are used as channels). Any transaction that involves two separate namespaces must be served by a collection of nodes that handles those namespaces. If there are no nodes that handle transactions that combine the namespaces, then the transaction cannot happen. If there are nodes that combine the namespaces, then the consensus algorithm guarantees that all the nodes agree on the transactions. More specifically, they agree on the winners of every race.
-Thus, there can never be double spend. The biggest threat is to find composite namespaces that served by few validators. Fortunately, you can see the validator power behind a namespace and decide whether to trust that namespace.
-Source: Forum discussion with @leithaus in [Discord #proof-of-stake](https://discordapp.com/).
+Ang mga node ay nagpapatunay ng mga transaksyon sa mga ibinigay na mga namespace, at ang mga transaksyon ay mga kaganapan sa buong pangalan (na ginagamit bilang mga channel). Ang anumang transaksyon na nagsasangkot ng dalawang magkahiwalay na mga namespaces ay dapat na paglingkuran ng isang koleksyon ng mga node na humahawak sa mga namespaces na iyon. Kung walang mga node na may hawak na mga transaksyon na pagsamahin ang mga namespaces, hindi maaaring mangyari ang transaksyon. Kung may mga node na pagsamahin ang mga namespaces, pagkatapos ay ang garantiya na algorithm ay tinitiyak na ang lahat ng mga node ay sumasang-ayon sa mga transaksyon. Mas partikular, sumasang-ayon sila sa mga nanalo sa bawat lahi. Kaya, hindi na maaaring maging double gastusin. Ang pinakamalaking banta ay upang makahanap ng mga composite namespaces na nagsilbi sa pamamagitan ng ilang mga validator. Sa kabutihang palad, maaari mong makita ang lakas ng validator sa likod ng isang namespace at magpasiya kung magtiwala ka sa namespace na iyon. 
+Pinagmulan: Forum discussion with @leithaus in [Discord #proof-of-stake](https://discordapp.com/).
 
 #### Composable Namespaces
-A namespace can be thought of as a URI (Uniform Resource Identifier), while the address of a resource can be thought of as a URL (Uniform Resource Locator). The path component of the URL, scheme://a/b/c, for example, may be viewed as equivalent to an RChain address. That is, a series of nested channels that each take messages, with the named channel, a, being the “top” channel. Observe, however, that URL paths do not always compose. Take scheme://a/b/c and scheme://a/b/d. In a traditional URL scheme, the two do not compose to yield a path. However, every flat path is automatically a tree path, and, as trees, these do compose to yield a new tree scheme://a/b/c+d. Therefore, trees afford a composable model for resource addressing.
-Source: [Namespace Logic](http://rchain-architecture.readthedocs.io/en/latest/contracts/namespaces.html#composable-namespaces-resource-addressing) in RChain Architecture.
+Ang isang namespace ay maaaring maisip bilang isang URI (Uniform Resource Identifier), habang ang address ng isang mapagkukunan ay maaaring maisip bilang isang URL (Uniform Resource Locator). Ang path component ng URL, scheme: // a / b / c, halimbawa, ay maaaring matingnan na katumbas sa isang RChain address. Iyon ay, isang serye ng mga nested na channel na kumuha ng bawat mensahe, na may pinangalanang channel, a, bilang "top" na channel. Subalit, gayunpaman, ang mga landas ng URL ay hindi laging sumulat. Kumuha ng pamamaraan: // a / b / c at pamamaraan: // a / b / d. Sa isang tradisyonal na pamamaraan ng URL, ang dalawa ay hindi sumulat upang magbigay ng landas. Gayunpaman, ang bawat patag na landas ay awtomatikong isang landas ng puno, at, tulad ng mga puno, ang mga ito ay gumagawa upang magbigay ng bagong scheme ng puno: // a / b / c + d. Samakatuwid, ang mga puno ay makakapagbigay ng isang modelo ng komposable para sa pagtugon sa mapagkukunan. 
+Pinagmulan: [Namespace Logic](http://rchain-architecture.readthedocs.io/en/latest/contracts/namespaces.html#composable-namespaces-resource-addressing) in RChain Architecture.
 
 
-## Agents and Bots
+## Mga Ahente at Bot
 
-#### Agent
-In computer science, a software agent is a computer program that acts for a user or other program in a relationship of agency, which derives from the Latin - agere (to do): an agreement to act on one's behalf. Such "action on behalf of" implies the authority to decide which, if any, action is appropriate.
-Source: [Agent](https://en.wikipedia.org/wiki/Agent) at Wikipedia.
+#### Ahente
+Sa agham ng computer, ang isang ahente ng software ay isang programa sa kompyuter na kumikilos para sa isang user o ibang programa sa isang relasyon ng ahensiya, na kinukuha mula sa Latin - agere (gawin): isang kasunduan na kumilos sa ngalan ng isa. Ang ganitong "pagkilos sa ngalan ng" ay nagpapahiwatig ng awtoridad na magdesisyon kung alin, kung mayroon man, ang aksyon ay angkop
+Pinagmulan: [Agent](https://en.wikipedia.org/wiki/Agent) at Wikipedia.
 
 #### Agent-based model
-A computational model for simulating the actions and interactions of individuals.
-Source: [Agent-based model](https://en.wikipedia.org/wiki/Agent-based_model) at Wikipedia.
+Isang modelo ng computational para sa pagtulad sa mga aksyon at pakikipag-ugnayan ng mga indibidwal. 
+Pinagmulan: [Agent-based model](https://en.wikipedia.org/wiki/Agent-based_model) at Wikipedia.
 
 #### Bisimilarity
-In theoretical computer science a bisimulation is a binary relation between state transition systems, associating systems that behave in the same way in the sense that one system simulates the other and vice versa. Intuitively two systems are bisimilar if they match each other's moves. In this sense, each of the systems cannot be distinguished from the other by an observer.
-Source: [Bisimilarity](https://en.wikipedia.org/wiki/Bisimulation) at Wikipedia.
+Sa teoretikal na agham ng kompyuter, ang bisimulation ay isang binary na ugnayan sa pagitan ng mga sistema ng paglipat ng estado, na nag-uugnay sa mga sistema na kumikilos sa parehong paraan sa kamalayan na ang isang sistema ay simulates ang isa at kabaligtaran. Intuitively dalawang sistema ay bisimilar kung sila ay tumutugma sa bawat isa ay gumagalaw. Sa ganitong diwa, ang bawat isa sa mga sistema ay hindi maaaring makilala mula sa isa sa pamamagitan ng isang tagamasid. 
+Pinagmulan: [Bisimilarity](https://en.wikipedia.org/wiki/Bisimulation) at Wikipedia.
 
 #### Bot
-An Internet bot, also known as web robot, WWW robot or simply bot, is a software application that runs automated tasks (scripts) over the Internet. Typically, bots perform tasks that are both simple and structurally repetitive, at a much higher rate than would be possible for a human alone.
-Source: [Bot](https://en.wikipedia.org/wiki/Internet_bot) at Wikipedia.
+Ang Internet bot, kilala rin bilang web robot, WWW robot o simpleng bot, ay isang software application na nagpapatakbo ng mga awtomatikong gawain (script) sa Internet. Kadalasan, ang mga bot ay nagsasagawa ng mga gawain na parehong simple at structurally paulit-ulit, sa isang mas mataas na rate kaysa sa magiging posible para sa isang tao lamang.
+Pinagmulan: [Bot](https://en.wikipedia.org/wiki/Internet_bot) at Wikipedia.
 
 #### Chatbot
-(Also known as a talkbot, chatterbot, Bot, IM bot, interactive agent, or Artificial Conversational Entity) is a computer program which conducts a conversation via auditory or textual methods.
-Source: [Chatbot](https://en.wikipedia.org/wiki/Chatbot) at Wikipedia.
+(Kilala rin bilang isang talkbot, chatterbot, bot, IM bot, interactive agent, o Artificial Conversational Entity) ay isang programa sa computer na nagsasagawa ng isang pag-uusap sa pamamagitan ng pandinig o tekstuwal na pamamaraan. 
+Pinagmulan: [Chatbot](https://en.wikipedia.org/wiki/Chatbot) at Wikipedia.
 
 #### Cyborg
-(Short for "cybernetic organism") is a being with both organic and biomechatronic body part. Cyborg from "cybernetic organsim". Cybernetic from the greek kybernetes which means steersman, governor, pilot, or rudder.
-Source: [Cyborg](https://en.wikipedia.org/wiki/Cyborg) at Wikipedia.
+(Maikling para sa "cybernetic organismo") ay isang pagiging may parehong organo at biomechatronic bahagi ng katawan. Cyborg mula sa "cybernetic organsim". Cybernetic mula sa grey kybernetes na nangangahulugan ng steersman, governor, pilot, o timon. 
+Pinagmulan:[Cyborg](https://en.wikipedia.org/wiki/Cyborg) at Wikipedia.
 
 #### Intelligent agent
-An autonomous, goal-directed entity which observes and acts upon an environment.
-Source: [Intelligent agent](https://en.wikipedia.org/wiki/Intelligent_agent) at Wikipedia.
+Isang autonomous, layunin-direktang entity na kung saan observes at kumikilos sa isang kapaligiran. 
+Pinagmulan: [Intelligent agent](https://en.wikipedia.org/wiki/Intelligent_agent) at Wikipedia.
 
 ## RChain Development Milestones
 
-#### Compiler Complete
-The foundational code of the RChain blockchain successfully compiles.
+#### Kumpletuhin ang tagatala
+Ang foundational code ng RChain blockchain ay matagumpay na na-compile.
 
-#### Node Complete
-The RChain blockchain integrates with node clients running on remote machines.
+#### Kumpletong Node
+Ang RChain blockchain ay sumasama sa mga kliyenteng node na tumatakbo sa mga remote machine.
 
-#### Mercury Complete
+#### Kumpletong Mercury
 The full functionality of the Mercury milestone is ready to release.
 
 
